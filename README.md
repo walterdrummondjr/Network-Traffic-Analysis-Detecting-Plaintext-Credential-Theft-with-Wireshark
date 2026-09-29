@@ -114,8 +114,7 @@ systemctl restart apache2
 
 <h1>Lab:</h1>
 
-**Scenario =** A bad actor has compromised this server and is running Wireshark to capture network traffic. TCPDump tool can also be used to capture network traffic. User logs into the PHP site the bad actor captures users credentials.
-<br>
+
 
 ### In the terminal type: wireshark 
 
@@ -186,7 +185,7 @@ systemctl restart apache2
 <br><br>
 
 
-**Information:** We can see different Protocol's in this section. Underneath the HTTP protocol we can see HTML form URL Encoded: application/x-www-form-urlencoded. This section displays data sent from the PHP website form to the web server using application/x-www-form-urlencoded format. This section shows the text the user typed into the form fields (username and password).
+**Information:** Different protocol's are displayed in this section. Underneath the HTTP protocol is HTML form URL Encoded: application/x-www-form-urlencoded. This section displays data sent from the PHP website form to the web server using application/x-www-form-urlencoded format. This section shows the text the user typed into the form fields (username and password).
 
 ### Click on the tab on that field to show the information:
 
