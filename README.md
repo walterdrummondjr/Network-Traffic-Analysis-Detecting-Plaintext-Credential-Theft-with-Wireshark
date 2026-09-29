@@ -1,4 +1,4 @@
-<h1>Sniffing-credentials-with-Wireshark-Lab</h1>
+<h1>Network Traffic Analysis: Detecting Plaintext Credential Theft with Wireshark</h1>
 
 
 
