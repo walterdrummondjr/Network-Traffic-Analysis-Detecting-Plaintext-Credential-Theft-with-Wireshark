@@ -160,13 +160,13 @@ systemctl restart apache2
 <img width="1282" height="648" alt="Image" src="https://github.com/user-attachments/assets/ac8dc0a1-4447-4454-a757-93401c41e574" />
 <br><br>
 
-### Now we can see all HTTP packets:
+###  All HTTP packets are displayed:
 
 <img width="1279" height="375" alt="Image" src="https://github.com/user-attachments/assets/4d8ab466-626d-43c8-af33-d699d1edf2da" />
 <br><br>
 
 
-**Information:**  We can see a HTTP packet with a POST request. A HTTP POST request is used to send data to the web server.
+**Information:**  HTTP packet with a POST request is shown. A HTTP POST request is used to send data to the web server.
 
 **POST request can also be filtered by using filter expression:** http.request.method == "POST" **and press enter:**
 
